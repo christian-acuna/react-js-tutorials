@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 import React from "react";
 
 import Footer from "./Footer";
@@ -7,7 +9,7 @@ export default class Layout extends React.Component {
   constructor() {
     super();
     this.state = {
-      title: "Welcome",
+      title: "Welcome to my world!!",
     };
   }
 
